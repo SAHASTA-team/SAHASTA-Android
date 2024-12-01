@@ -27,11 +27,11 @@ class MainActivity : AppCompatActivity() {
         }
         window.statusBarColor = Color.WHITE
         WindowInsetsControllerCompat(window, window.decorView).isAppearanceLightStatusBars = true
-        setOnclickAction()
+        setClickListener()
         setupBottomNav()
     }
 
-    private fun setOnclickAction() {
+    private fun setClickListener() {
         binding.icScan.setOnClickListener {
             navigateToNutrition()
         }

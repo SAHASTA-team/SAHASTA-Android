@@ -23,8 +23,8 @@
         android:layout_margin="8dp"
         android:text="@string/text_btn_scan"
         android:textSize="20sp"
-        android:textColor="@color/md_theme_primary"
         android:textStyle="bold"
+        android:textColor="@color/md_theme_primary"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@id/btn_back"
         app:layout_constraintBottom_toBottomOf="@id/btn_back"
@@ -72,7 +72,9 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="32dp"
                 android:text="@string/text_btn_scan_camera"
-                android:paddingVertical="16dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingVertical="8dp"
                 android:background="@drawable/bg_btn"
                 app:layout_constraintTop_toBottomOf="@id/viewFinder"/>
 
@@ -83,7 +85,9 @@
                 android:layout_marginHorizontal="32dp"
                 android:layout_marginVertical="16dp"
                 android:text="@string/text_btn_gallery"
-                android:paddingVertical="16dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingVertical="8dp"
                 android:background="@drawable/bg_btn"
                 app:layout_constraintTop_toBottomOf="@id/btn_scan"/>
 
@@ -94,8 +98,10 @@
                 android:layout_marginHorizontal="32dp"
                 android:layout_marginVertical="16dp"
                 android:text="@string/text_btn_back"
+                android:textSize="20sp"
+                android:textStyle="bold"
                 android:textColor="@color/md_theme_primary"
-                android:paddingVertical="16dp"
+                android:paddingVertical="8dp"
                 app:backgroundTint="@android:color/transparent"
                 app:cornerRadius="14dp"
                 app:rippleColor="@color/md_theme_primary"

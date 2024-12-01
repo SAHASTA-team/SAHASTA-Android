@@ -18,4 +18,14 @@
     <string name="text_btn_scan_camera">Pindai</string>
     <string name="text_btn_gallery">Galeri</string>
     <string name="text_btn_back">Kembali</string>
+    <string name="title_baby_data">Kelola Data Anak</string>
+    <string name="text_btn_add_baby_data">Tambah/Edit Data Anak</string>
+    <string name="text_no_baby_data">*belum ada data</string>
+    <string name="text_baby_bmi">BMI</string>
+    <string name="text_baby_weight">Berat Badan(kg)</string>
+    <string name="text_baby_height">Tinggi Badan(cm)</string>
+    <string name="text_baby_gender">Jenis Kelamin</string>
+    <string name="text_baby_age">Usia</string>
+    <string name="text_baby_name">Nama Anak</string>
+    <string name="text_last_measurement">Tanggal Pengukuran Terakhir : - -/- -/- - - -</string>
 </resources>
