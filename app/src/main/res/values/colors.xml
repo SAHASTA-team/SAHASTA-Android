@@ -9,4 +9,5 @@
     <color name="md_theme_onSecondary">#FF007F</color>
     <color name="md_theme_tertiary">#813636</color>
     <color name="md_theme_onTertiary">#FFFFFF</color>
+    <color name="ic_launcher_background">#F9FBF8</color>
 </resources>
