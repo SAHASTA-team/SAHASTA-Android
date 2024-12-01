@@ -5,4 +5,9 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_tab_nutrition">Pindai\nNutrisi</string>
+    <string name="text_btn_scan">Pindai Nutrisi</string>
+    <string name="text_btn_monitor">Perkembangan</string>
+    <string name="text_btn_baby">Kelola\nDataAnak</string>
+    <string name="text_welcome_user_home">Selamat datang, (nama pengguna)</string>
+    <string name="desc_menu">more</string>
 </resources>

@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="72dp"
         android:layout_marginBottom="16dp"
-        android:layout_marginHorizontal="16dp"
+        android:layout_marginHorizontal="24dp"
         android:background="@drawable/bg_rounded"
         android:theme="@style/Theme.navbar_theme"
         app:itemIconSize="32dp"
@@ -49,6 +49,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/text_btn_scan"
             android:src="@drawable/ic_scan"/>
 
         <TextView
