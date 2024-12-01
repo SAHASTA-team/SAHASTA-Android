@@ -14,4 +14,8 @@
     <string name="text_useremail">emailpengguna@email.com</string>
     <string name="text_logout">Keluar</string>
     <string name="desc_iv_avatar">Foto profil pengguna</string>
+    <string name="desc_btn_back">Tombol kembali</string>
+    <string name="text_btn_scan_camera">Pindai</string>
+    <string name="text_btn_gallery">Galeri</string>
+    <string name="text_btn_back">Kembali</string>
 </resources>
