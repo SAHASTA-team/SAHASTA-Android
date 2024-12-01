@@ -2,6 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gray">#FFC0C0C0</color>
     <color name="md_theme_primary">#E06C80</color>
     <color name="md_theme_primaryContainer">#80FFC0CB</color>
     <color name="md_theme_onPrimaryContainer">#2BFF007F</color>
