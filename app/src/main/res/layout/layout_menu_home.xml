@@ -24,7 +24,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text_btn_scan"/>
+            android:text="@string/text_btn_scan"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 
@@ -45,7 +46,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text_btn_monitor"/>
+            android:text="@string/text_btn_monitor"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 
@@ -68,7 +70,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:text="@string/text_btn_baby"/>
+            android:text="@string/text_btn_baby"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 
