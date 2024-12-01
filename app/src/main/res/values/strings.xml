@@ -10,4 +10,8 @@
     <string name="text_btn_baby">Kelola\nDataAnak</string>
     <string name="text_welcome_user_home">Selamat datang, (nama pengguna)</string>
     <string name="desc_menu">more</string>
+    <string name="text_username">Nama Pengguna</string>
+    <string name="text_useremail">emailpengguna@email.com</string>
+    <string name="text_logout">Keluar</string>
+    <string name="desc_iv_avatar">Foto profil pengguna</string>
 </resources>
