@@ -25,6 +25,9 @@
         android:theme="@style/Theme.SAHASTA"
         tools:targetApi="31">
         <activity
+            android:name=".presentation.editbabydata.EditBabyDataActivity"
+            android:exported="false" />
+        <activity
             android:name=".presentation.babydata.BabyDataActivity"
             android:exported="false" />
         <activity

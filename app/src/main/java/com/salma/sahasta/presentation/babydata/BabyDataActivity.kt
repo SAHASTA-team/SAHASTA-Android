@@ -1,5 +1,6 @@
 package com.salma.sahasta.presentation.babydata
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -8,6 +9,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import com.salma.sahasta.R
 import com.salma.sahasta.databinding.ActivityBabyDataBinding
+import com.salma.sahasta.presentation.editbabydata.EditBabyDataActivity
 
 class BabyDataActivity : AppCompatActivity() {
     private val binding: ActivityBabyDataBinding by lazy {
@@ -30,5 +32,16 @@ class BabyDataActivity : AppCompatActivity() {
         binding.btnBack.setOnClickListener {
             onBackPressedDispatcher.onBackPressed()
         }
+        binding.btnAddBabyData.setOnClickListener {
+            navigateToAddBabyData()
+        }
+    }
+
+    private fun navigateToAddBabyData() {
+        startActivity(
+            Intent(this, EditBabyDataActivity::class.java).apply {
+                flags = Intent.FLAG_ACTIVITY_SINGLE_TOP or Intent.FLAG_ACTIVITY_CLEAR_TOP
+            },
+        )
     }
 }
