@@ -35,8 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/gray"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@id/tv_title_scan_nutrition"/>
+        app:layout_constraintTop_toBottomOf="@id/btn_back"/>
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"

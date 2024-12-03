@@ -36,4 +36,14 @@
     <string name="hint_baby_weight">Berat Badan(kg)*</string>
     <string name="text_btn_save">Simpan</string>
     <string name="text_btn_cancel">Batal</string>
+    <string name="title_baby_growth">Perkembangan</string>
+    <string name="text_item_history">[ 1 Nov 2024 ] Tinggi 85 cm | Berat 12 kg</string>
+    <string name="text_baby_growth_name">(Nama Anak)</string>
+    <string name="text_baby_growth_age">(Usia Anak)</string>
+    <string name="text_baby_growth_height">Tinggi : 85 cm</string>
+    <string name="text_baby_growth_weight">Berat : 12 kg</string>
+    <string name="text_baby_growth_bmi">BMI : Normal</string>
+    <string name="title_history_list">Daftar Riwayat:</string>
+    <string name="btn_add_new_baby_data">Tambah Data Baru</string>
+    <string name="title_add_baby_growth">Tambah Data Perkembangan Baru</string>
 </resources>
