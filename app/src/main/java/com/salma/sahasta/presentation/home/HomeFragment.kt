@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.salma.sahasta.databinding.FragmentHomeBinding
 import com.salma.sahasta.presentation.babydata.BabyDataActivity
+import com.salma.sahasta.presentation.babygrowth.BabyGrowthActivity
 
 class HomeFragment : Fragment() {
     private lateinit var binding: FragmentHomeBinding
@@ -29,6 +30,9 @@ class HomeFragment : Fragment() {
         binding.llHomeMenu.btnBabyData.setOnClickListener {
             navigateToBabyData()
         }
+        binding.llHomeMenu.btnMonitoring.setOnClickListener {
+            navigateToBabyGrowth()
+        }
     }
 
     private fun navigateToBabyData() {
@@ -36,6 +40,14 @@ class HomeFragment : Fragment() {
             Intent(requireContext(), BabyDataActivity::class.java).apply {
                 flags = Intent.FLAG_ACTIVITY_SINGLE_TOP or Intent.FLAG_ACTIVITY_CLEAR_TOP
             },
+        )
+    }
+
+    private fun navigateToBabyGrowth() {
+        startActivity(
+            Intent(requireContext(), BabyGrowthActivity::class.java).apply {
+                flags = Intent.FLAG_ACTIVITY_SINGLE_TOP or Intent.FLAG_ACTIVITY_CLEAR_TOP
+            }
         )
     }
 }
