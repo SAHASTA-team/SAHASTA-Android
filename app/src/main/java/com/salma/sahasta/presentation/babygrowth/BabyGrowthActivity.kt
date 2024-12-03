@@ -9,7 +9,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import com.salma.sahasta.R
 import com.salma.sahasta.databinding.ActivityBabyGrowthBinding
-import com.salma.sahasta.presentation.editbabydata.EditBabyDataActivity
+import com.salma.sahasta.presentation.addbabygrowth.AddBabyGrowthActivity
 
 class BabyGrowthActivity : AppCompatActivity() {
     private val binding: ActivityBabyGrowthBinding by lazy {
@@ -40,7 +40,7 @@ class BabyGrowthActivity : AppCompatActivity() {
 
     private fun navigateToAddBabyGrowth() {
         startActivity(
-            Intent(this, EditBabyDataActivity::class.java).apply {
+            Intent(this, AddBabyGrowthActivity::class.java).apply {
                 flags = Intent.FLAG_ACTIVITY_SINGLE_TOP or Intent.FLAG_ACTIVITY_CLEAR_TOP
             },
         )

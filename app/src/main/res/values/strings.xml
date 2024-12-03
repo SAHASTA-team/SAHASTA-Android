@@ -45,4 +45,5 @@
     <string name="text_baby_growth_bmi">BMI : Normal</string>
     <string name="title_history_list">Daftar Riwayat:</string>
     <string name="btn_add_new_baby_data">Tambah Data Baru</string>
+    <string name="title_add_baby_growth">Tambah Data Perkembangan Baru</string>
 </resources>
